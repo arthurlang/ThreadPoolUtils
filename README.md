@@ -10,7 +10,11 @@
 4.支持并行（类似newCachedExecutor）  
 5.支持设置任务优先级  
 6.支持查询正在等待执行的任务:ThreadPoolUtils.getWaitingJobsByTag(String tag)	  
-7.支持JobScheduler  
+7.支持JobScheduler
+8.参考Kotlin协程中线程池为了减少此竞争产生的概率，在每个线程中设置一个localQueue
 
-## 代码还在路上
-代码参考了 https://github.com/yangchong211/YCThreadPool/releases/tag/1.3.8  
+## 在路上的代码
+代码参考了 https://github.com/yangchong211/YCThreadPool/releases/tag/1.3.8
+
+
+
